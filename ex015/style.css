@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+/* Tudo oq é em:
+        - Html é id = em CSS é #   - id é para mudar um unico elemento
+        - Html é class = em CSS é . - class pode ser usado em varios elementos e pode colocar mais de uma classe no msm elemento
+        : pseudo-class
+        :: pseudo-element
+        > children
+*/
+body {
+    background-color: rgb(188, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(6, 110, 110);
+}
+
+h1#principal {
+    text-align: center;
+    background: rgb(0, 212, 212);
+}
+
+h2 {
+    color: rgb(98, 179, 179);
+}
